@@ -39,14 +39,14 @@
   .menu-nav {
     margin: 0;
     padding: 0;
-    background: #373737;
+    background: #1c1b25;
     list-style: none;
     transform: translate3d(0, -100%, 0);
     transition: all 0.5s ease-out; }
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
   .menu-branding {
-    background: #444;
+    background: #272634;
     transform: translate3d(0, 100%, 0);
     transition: all 0.5s ease-out; }
     .menu-branding.show {
@@ -54,16 +54,16 @@
     .menu-branding .portrait {
       width: 250px;
       height: 250px;
-      background-color: #333;
+      background-image: url(../dist/img/portrait.jpg);
       border-radius: 50%;
-      border: 3px solid #eece1a; }
+      border: 3px solid #06aae2; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.5s ease-out; }
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
-      color: #eece1a; }
+      color: #06aae2; }
   .menu .nav-link {
     display: inline-block;
     position: relative;
@@ -75,7 +75,7 @@
     text-decoration: none;
     transition: all 0.5s ease-out; }
     .menu .nav-link:hover {
-      color: #eece1a; }
+      color: #06aae2; }
 
 .nav-item:nth-child(1) {
   transition-delay: 0.1s; }
@@ -93,7 +93,7 @@
   box-sizing: border-box; }
 
 body {
-  background: #444;
+  background: #272634;
   color: #fff;
   height: 100%;
   margin: 0px;
@@ -110,7 +110,7 @@ body {
       right: 0;
       width: 100%;
       height: 100%;
-      background: rgba(68, 68, 68, 0.9);
+      background: rgba(39, 38, 52, 0.9);
       z-index: -2; }
 
 h1,
@@ -127,7 +127,7 @@ h3 {
   h3.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background-color: rgba(73, 73, 73, 0.5); }
+    background-color: rgba(43, 42, 58, 0.5); }
 
 a {
   color: white;
@@ -139,7 +139,7 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #eece1a; }
+  color: #06aae2; }
 
 main {
   padding: 4rem;
@@ -149,7 +149,7 @@ main {
     main .icons a {
       padding: 0.4rem; }
       main .icons a:hover {
-        color: #eece1a;
+        color: #06aae2;
         transition: all 0.5s ease-out; }
   main#home {
     overflow: hidden; }
@@ -168,7 +168,7 @@ main {
   border-radius: 50%;
   width: 200px;
   height: 200px;
-  border: #eece1a 3px solid; }
+  border: #06aae2 3px solid; }
 
 .bio {
   grid-area: bio;
@@ -184,9 +184,9 @@ main {
   grid-area: job3; }
 
 .job {
-  background: #515151;
+  background: #323143;
   padding: 0.5rem;
-  border-bottom: #eece1a 5px solid; }
+  border-bottom: #06aae2 5px solid; }
 
 .projects {
   display: grid;
@@ -197,7 +197,7 @@ main {
     border: #fff 3px solid; }
     .projects img:hover {
       opacity: 0.5;
-      border-color: #eece1a;
+      border-color: #06aae2;
       transition: all 0.5s ease-out; }
 
 .boxes {
@@ -214,7 +214,7 @@ main {
     transition: all 0.5s ease-out; }
     .boxes div:hover {
       padding: 0.5rem 1.5rem;
-      background: #eece1a;
+      background: #06aae2;
       color: #000; }
       .boxes div:hover span {
         color: #000; }
@@ -225,7 +225,7 @@ main {
   border: 0;
   margin-bottom: 0.3rem; }
   .btn:hover, .btn-dark:hover, .btn-light:hover {
-    background: #eece1a;
+    background: #06aae2;
     color: #000; }
 
 .btn-dark {
@@ -233,13 +233,13 @@ main {
   color: #fff; }
 
 .btn-light {
-  background: #c4c4c4;
+  background: #a2a0b9;
   color: #333; }
 
 #main-footer {
   text-align: center;
   padding: 1rem;
-  background: #2b2b2b;
+  background: #111017;
   color: #fff;
   height: 60px; }
 
